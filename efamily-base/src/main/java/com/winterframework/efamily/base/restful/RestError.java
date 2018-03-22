@@ -38,8 +38,6 @@ public class RestError {
         this.status = status;
         this.code = code;
         this.message = message;
-		this.message = message;
-		this.message = message;
         this.developerMessage = developerMessage;
         this.moreInfoUrl = moreInfoUrl;
         this.throwable = throwable;
