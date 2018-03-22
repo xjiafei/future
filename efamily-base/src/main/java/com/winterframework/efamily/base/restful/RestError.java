@@ -24,9 +24,10 @@ import org.springframework.util.ObjectUtils;
  */
 public class RestError {
     private final HttpStatus status;
-    private final int code;
+    private final int code; 
     private final String message;
     private final String developerMessage;
+
     private final String moreInfoUrl;
     private final Throwable throwable;
     
@@ -37,6 +38,7 @@ public class RestError {
         this.status = status;
         this.code = code;
         this.message = message;
+		this.message = message;
         this.developerMessage = developerMessage;
         this.moreInfoUrl = moreInfoUrl;
         this.throwable = throwable;
